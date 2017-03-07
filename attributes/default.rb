@@ -111,6 +111,9 @@ default['datadog']['yumrepo_gpgkey_new'] = "#{yum_protocol}://yum.datadoghq.com/
 # Expected checksum to validate correct agent installer is downloaded (Windows only)
 default['datadog']['windows_agent_checksum'] = nil
 
+# Use the EXE installer on Windows, recommended to handle per-user to per-machine upgrades gracefully
+default['datadog']['windows_agent_use_exe'] = false
+
 # Values that differ on Windows
 # The location of the config folder (containing conf.d)
 # The name of the dd agent service
