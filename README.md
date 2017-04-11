@@ -1,4 +1,3 @@
-
 Where to Find the Code
 ======================
 To submit issues and patches please visit https://github.com/DataDog/chef-datadog.
